@@ -1,0 +1,450 @@
+/*------------Use-Style-for-header-logo------------*/
+header.fixed .logo .dark,.logo .light {
+    display: flex;
+    align-items: center;
+    margin-top: .5rem
+}
+header .logo .light span.title,
+header .logo .dark span.title {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 1.15rem;
+    letter-spacing: 7px;
+    padding-left: .875rem
+}
+.diamond-layout.hero-main h1 span {
+    color: #7e3de2;
+}
+.footer-logo .light {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+    .footer-logo >.light>img{width:64px}
+
+
+
+    .footer-logo .light span.title {
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        font-size: 1.25rem;
+        letter-spacing: 7px;
+        padding-left: .875rem;
+        color: #fff
+    }
+header .logo .light img,
+header.fixed .logo .dark img {
+    width:54px;
+    height:54px
+}
+header .logo .light span.title {
+    color: #fff
+}
+header.fixed .logo .light{
+    display: none
+}
+header.fixed .logo .dark span.title {
+    color: #000
+}
+header.fixed .logo .dark img {
+    display: block
+}
+/*------------Use-Style-for-header-logo------------*/
+/*------------Theme-Style-modify------------*/
+.fixed nav ul li a:hover, .fixed nav ul li.active a, .light nav ul li a:hover, .light nav ul li.active a {
+    color: #7e3de2;
+}
+nav ul li a:hover, nav ul li.active a {
+    color: #7e3de2;
+}
+.btn {
+    color: white;
+}
+nav ul li.nav-btn a {
+    background-color: #7e3de2;
+}
+    nav ul li.nav-btn a:hover {
+        background: #d6b0f9;
+        color: #1d1d1d;
+    }
+
+.btn {
+    background: #7e3de2
+}
+    .btn:hover {
+        background: #d6b0f9;
+        color: #1d1d1d;
+    }
+.btn3 {
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    color: #1d1d1d;
+}
+    .btn3:hover {
+        background: #dddddd;
+        color: #1d1d1d;
+        border: 1px solid #dddddd;
+    }
+a {
+    color: #7e3de2;
+}
+    a:hover, a:focus {
+        color: #d6b0f9;
+        text-decoration: none;
+        outline: 0;
+    }
+
+.roadmap-live-slider .roadmap-item:before {
+    background: #7e3de2;
+}
+.roadmap-live-slider .roadmap-item.slick-current div:before {
+    border-bottom: 20px solid #7e3de2;
+}
+.roadmap-live-slider .roadmap-item.slick-current div {
+    background: #7e3de2;
+}
+    .roadmap-live-slider .roadmap-item.slick-current div .roadmap-date {
+        color: #fff;
+    }
+    .roadmap-live-slider .roadmap-item.slick-current div h4 {
+        color: #fff;
+    }
+
+    .btn4 {
+        background: #000000
+    }
+.tab-section .nav-tabs .nav-link.active,
+.tab-section .nav-tabs .nav-item.show .nav-link,
+.tab-section .nav-tabs .nav-link:hover,
+.tab-section .nav-tabs .nav-link:focus {
+    color: #7e3de2
+}
+.tab-section .nav-tabs .nav-link:after {
+    background: #7e3de2;
+}
+.style-3.accordion .card-header h5:before {
+    background: #7e3de2;
+    color:#fff;
+}
+.blog-grid-layout .footer-meta {
+    background: #7e3de2
+}
+.widget-area .socials li i {
+    color: #7e3de2;
+}
+.widget-area .socials ul li a:hover, .widget-area .socials ul li:hover a {
+    background: #7e3de2;
+}
+.roadmap-live-slider .slick-prev:hover:before, .roadmap-live-slider .slick-next:hover:before {
+    color: #d6b0f9;
+}
+footer li a:hover {
+    color: #7e3de2;
+}
+.benefits {
+    background-color: #fff;
+    background-image:none;
+    float:none;
+}
+.benefits-boxes .item {
+    border: 2px solid #b5b5b7;
+    color: #616161
+}
+    .benefits-boxes .item h3 {
+        color: #000;
+    }
+    .benefits-boxes .item:hover {
+        border-color: #7e3de2;
+    }
+/*------------Use-Style-for-header-logo------------*/
+/*------rajat-style-------*/
+.banafits-circle {
+    border: 8px solid #7e3de2;
+}
+.token-allocation-box.style-4 {
+    background: linear-gradient(135deg, #7e3de2 0%, #7e3de2 100%);
+}
+.fixed nav ul li a, .light nav ul li a {
+    color: #1d1d1d;
+}
+#myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+   height: 100%;
+}
+.fancybox-container {
+    z-index: 9999999;
+}
+.navbar-area {
+    position: relative
+}
+/*====================================
+  START FOR NEW CSS LANGUAGE CONVERTER
+*=====================================*/
+/*.onepage{margin-right:110px}*/
+.nav-menu-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.75rem
+}
+
+.option-lang-item {
+    color: #5b5b98;
+    line-height: 1;
+    position: absolute;
+    right: -25px;
+    top: 15px;
+    z-index: 1;
+}
+
+    .option-lang-item .menu-lang-converter {
+        vertical-align: middle;
+        display: inline-block;
+        margin-left: 0.75rem
+    }
+
+#headerLanguages .dropdown-menu {
+    /* border: 0; */
+    padding: 0;
+    border-radius: 0.25rem;
+    min-width: 10rem;
+    -webkit-box-shadow: 0 7px 13px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 7px 13px 0 rgb(0 0 0 / 10%);
+    background-color: #fff;
+}
+
+.dropdown-menu.show {
+    display: block !important
+}
+
+.option-lang-item .menu-lang-converter #headerLanguages {
+    position: relative
+}
+.option-lang-item .menu-lang-converter .bx {
+    float: right;
+    margin-left: 2px;
+    color: #F3C962;
+    font-size: 1.5rem;
+    margin-top: -3px;
+}
+
+.option-lang-item .menu-lang-converter .dropdown-menu.show {
+    right: 0;
+    margin-left: 0;
+    top: 22px;
+    left: auto;
+}
+
+.option-lang-item .menu-lang-converter .dropdown-menu .dropdown-item {
+    color: #000;
+    width: auto !important;
+    display: flex;
+    float: none
+}
+
+.option-lang-item ul.dropdown-menu {
+    display: none
+}
+
+.dropdown-item {
+    display: flex;
+    padding: 0.25rem 1rem !important;
+    line-height: 1.5
+}
+
+    .dropdown-item.active {
+        text-decoration: none;
+        background-color: var(--iq-primary) !important
+    }
+
+#headerLanguages .dropdown-item:focus,
+#headerLanguages .dropdown-item:hover {
+    color: #fff;
+    background-color: #7e3de2 !important;
+    padding: 0.25rem 1rem;
+}
+
+#headerLanguages .dropdown-item.active,
+#headerLanguages .dropdown-item:active {
+    color: #fff;
+    background-color: #7e3de2 !important;
+    padding: 0.25rem 1rem;
+}
+
+#mWvICcQYPj {
+    display: flex;
+    justify-content: end;
+    margin-top: 5px
+}
+
+header.fixed #mWvICcQYPj #langtext {
+    color: #000;
+}
+
+#mWvICcQYPj #langtext {
+    margin-left: 7px;
+    color: #fff;
+    margin-right: 5px;
+}
+
+#mWvICcQYPj .icofont-simple-down {
+    margin-top: 4px
+}
+
+#mWvICcQYPj > #headerflag {
+    margin: -2px 0 0 0 !important;
+}
+
+.dropdown-item {
+    display: flex;
+    padding: 0.26rem 1rem !important;
+    line-height: 1.5;
+}
+
+#headerLanguages .dropdown-menu > li {
+    display: block !important;
+    margin-right: 0 !important;
+}
+
+    #headerLanguages .dropdown-menu > li > a {
+        display: flex;
+        padding: 0.35rem 1rem !important;
+        line-height: 1;
+        font-size: 0.895rem;
+        font-weight: 500
+    }
+
+        #headerLanguages .dropdown-menu > li > a .lang-title {
+            margin-top: 4px
+        }
+
+#langtext .goog-text-highlight {
+    box-shadow: none;
+    background-color: transparent;
+}
+
+#navbar > .container {
+    position: relative
+}
+
+#navbarCollapse > .navbar-nav.ms-auto.mr-6rem {
+    margin-right: 0
+}
+/*====================================
+  END FOR NEW CSS LANGUAGE CONVERTER
+*=====================================*/
+
+@media only screen and (max-width: 767px) {
+    .option-lang-item {
+        margin-right: 100px;
+        margin-top: -9px;
+    }
+    header.fixed .logo .dark, .logo .light {
+        margin-top: 0 !important
+    }
+        header .logo .light img,
+        header.fixed .logo .dark img {
+            width: 34px;
+            height: auto !important;
+            margin: .15rem 0;
+        }
+    #smart-contract{padding-top:50px}
+    #smart-contract .row.my-3 {
+        flex-wrap: nowrap;
+        margin-left: 0
+    }
+    .featured-product-sec .button-wrapper {
+        margin:0 auto
+    }
+    .ipad-center .column {
+        margin: 0 auto .75rem auto;
+    }
+    #smart-contract .column.icon-text p {
+        color: #000
+    }
+
+        .ipad-center .row.my-3 {
+            margin-left: 0;
+            margin-right: 0
+        }
+
+}
+@media (min-width: 30px) and (max-width: 767px) {
+    nav.onepage{margin-left:0}
+    nav.onepage ul {
+        margin-top: 45px;
+    }
+
+    .menu-icon {
+        top: 6px
+    }
+    .menu-icon span {
+        background: #7e3de2;
+    }
+    .menu-icon.active .bottom {
+        background: #7e3de2;
+    }
+
+    header.fixed .h-col-left, 
+    header .h-col-left {
+        -ms-flex: 0 0 60%;
+        flex: 0 0 60%;
+        max-width: 60%;
+        padding-right: 0
+    }
+    header.fixed .h-col-right,
+    header .h-col-right {
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+        header .logo .light span.title,
+        header .logo .dark span.title {
+            font-size: 1rem;
+            letter-spacing: .25rem;
+            padding-left: .475rem;
+            padding-top:0.3rem
+        }
+    .hero-main.diamond-layout .row.flex-col-inverse {
+        flex-direction:column-reverse
+    }
+    .benefit-section.platinum-layout.p-t{padding-top:35px}
+    .mobile-center.ipad-center{padding-top:1.75rem}
+    .platinum-footer .footer-widget-area .widget-area.last{margin-bottom:30px}
+}
+
+@media only screen and (max-width: 991px) {
+    .team-section{padding:30px 0 40px}
+    .hero-btns a {
+        min-width: 151px;
+    }
+        .hero-btns a + a{margin-top:0}
+    .banafits-list-items{padding-bottom:10px;padding-top:20px}
+        .banafits-list-items .benefit-box .text p.mr-m22,
+        .banafits-list-items .benefit-box .text p.mr-m60 {
+            margin-right: 0 !important;
+        }
+        .banafits-list-items .benefit-box .text p.ml-m22 {
+            margin-left: 0 !important;
+        }
+        .banafits-list-items .banafits-item:nth-child(4) .text, 
+        .banafits-list-items .banafits-item:nth-child(5) .text{
+            padding-left:0
+        }
+    .benefits.p-tb{padding-top:40px;padding-bottom:20px}
+    .roadmap-sec.diamond-layout{padding:30px 0}
+    .slick-slider .slick-dots {
+        margin-top: 0.25rem;
+        margin-bottom: 0.25rem;
+        padding:0;
+    }
+        .slick-slider .slick-dots button {
+            background: #7e3de2;
+        }
+    .faq-section.p-tb {
+        padding: 40px 0 30px
+    }
+    footer.platinum-footer {
+        padding: 20px 0 30px
+    }
+}
